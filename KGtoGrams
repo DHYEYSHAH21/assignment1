@@ -1,0 +1,9 @@
+#include<stdio.h>
+
+float a,b;
+int main(){
+printf("Enter Value in KG");
+scanf("%f", &a);
+b=1000*a;
+printf("The Value in KG is: %f", b);
+}
