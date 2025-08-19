@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+int main(){
+int a,b;
+
+printf("Enter Principal Amount");
+scanf("%d", &a);
+
+b = a/100;
+
+printf("Your Interest is: %d", b);
+}
