@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+int main(){
+float a,b;
+
+printf("Enter your gross sales");
+scanf("%f", &a);
+
+b=(0.9*a);
+
+printf("Your Net Sales is: %f", b);
+}
