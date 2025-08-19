@@ -1,0 +1,9 @@
+#include<stdio.h>
+
+float a,b;
+int main(){
+printf("Enter Value in minutes");
+scanf("%f", &a);
+b=(a/60);
+printf("The Hour Conversion is: %f", b);
+}
