@@ -1,0 +1,9 @@
+#include<stdio.h>
+
+int a,b;
+int main(){
+printf("Enter Value in Hours");
+scanf("%d", &a);
+b=60*a;
+printf("The Minute Conversion is: %d", b);
+}
