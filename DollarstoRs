@@ -1,0 +1,9 @@
+#include<stdio.h>
+
+int a,b;
+int main(){
+printf("Enter Value in Dollars");
+scanf("%d", &a);
+b=48*a;
+printf("The Value in Rupees is: %d", b);
+}
