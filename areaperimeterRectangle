@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main(){
+float a,b,c,d;
+
+printf("Enter Length and Breadth of the Rectangle");
+scanf("%f %f", &a,&d);
+
+b= (a*d*1LL);
+c= (2*(a+d));
+
+printf("Area of the Rectangle is: %f\n", b);
+printf("Perimeter of the Rectangle is: %f", c);
+}
