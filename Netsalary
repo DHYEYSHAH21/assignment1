@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+int main(){
+float a,b;
+
+printf("Enter your gross salary");
+scanf("%f", &a);
+
+b=(a+(0.1*a)-(0.03*a)*1LL);
+
+printf("Your Net Salary is: %f", b);
+}
