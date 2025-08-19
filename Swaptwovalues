@@ -1,0 +1,8 @@
+#include<stdio.h>
+
+int main (){
+int a,b;
+printf("Enter two numbers to be swapped:");
+scanf("%d %d",&a ,&b);
+printf("The Swapped Numbers is: %d,%d",b,a);
+}
