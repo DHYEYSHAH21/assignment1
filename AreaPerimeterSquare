@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main(){
+float a,b,c;
+
+printf("Enter Side Length of the Square");
+scanf("%f", &a);
+
+b= (a*a*1LL);
+c= (4*a);
+
+printf("Area of the square is: %f\n", b);
+printf("Perimeter of the square is: %f", c);
+}
