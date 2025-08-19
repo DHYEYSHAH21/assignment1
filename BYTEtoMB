@@ -1,0 +1,9 @@
+#include<stdio.h>
+
+int a,b;
+int main(){
+printf("Enter Value in Bytes");
+scanf("%d", &a);
+b=((a/1024)/1024);
+printf("The Value in KB is: %d", b);
+}
